@@ -1,0 +1,83 @@
+git init - inicia o repositorio local
+git status - verifica o status dos arquivos 
+git add . - adiciona todos os arquivos p/ dentro do git preparando o arquivo p/ ser commitado
+git commit -a -m "Adicionando o index html" - commita o(s) arquivo(s) passando uma mensagem
+git remote add origin https://github.com/rosivaldocamjr/treinamento_git.git - linka o repositorio local com o repositorio web
+git branch -M main - linka a branch local com a branch main
+git push -u origin main - sobe os arquivo p/ o repositorio web na branch main
+git checkout -b "Teste" - cria a branch Teste
+git push --set-upstream origin Teste - faz o push na branch Teste
+git branch - lista as branchs disponiveis
+git checkout main - muda para a branch main
+git merge Teste - junta a branch principal com a branch Teste
+git pull - pega todos os arquivos e diretorios atuais do repositorio web 
+git clone https://github.com/rosivaldocamjr/treinamento_git.git - clona o repositorio web
+git clone https://github.com/rosivaldocamjr/treinamento_git.git testeclone - clona o repositorio web passando um nome (testeclone)
+ls - ve os arquivos/diretorios que estao no diretorio local
+
+git clean -f ?????????
+
+git log - ve os logs, os commits com o nome email data e hora
+
+git reflog - ve os logs, commits com o nome email data e hora
+
+git reset --hard f7fb2a5
+
+a-de-login master
+git branch
+git status
+git add .
+git status
+git commit -m "Criado sistema de login"
+git checkout master
+git pull
+git merge sistema-de-login
+git push
+git checkout sistema-de-login
+git status
+git add .
+git commit -m "Adicionando validacao de idade"
+git push --set-upstream origin sistema-de-login
+git status
+git checkout master
+git status
+touch .gitignore
+git status
+git status
+git status
+git status
+git add .
+git status
+git commit -m "Adicionando arquivo gitignore"
+git push
+git pull
+git push
+vim giropops.txt
+git status
+git remote add origin https://github.com/rosivaldocamjr/treinamento_git_gitlab.git
+git init
+git remote add origin https://github.com/rosivaldocamjr/treinamento_git_gitlab.git
+git branch -M main
+git status
+git add .
+git status
+git commit -m "Primeiro commit"
+git push -u origin main
+git status
+git config user.name
+git congi user.email
+git config user.email
+git log
+git log -1
+git reflog
+git log --online
+git log --oneline
+git log --author="Rosivaldo Campos"
+git log --graph --decorate
+git log --graph
+git log --graph --decorate
+git log
+git status
+git pull
+git status
+history
