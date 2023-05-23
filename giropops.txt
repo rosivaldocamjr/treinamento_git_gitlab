@@ -1,0 +1,1 @@
+Estamos ao vivo mostrando como utilizar de maneira totalmente excelente o nosso git e o gitlab
